@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF‑8"/>
+  <meta name="viewport" content="width=device-width, initial‑scale=1.0"/>
+  <title>SMS Opt‑In Policy & Signup Flow – MUV Ride</title>
+  <style>
+    body { font-family: Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 20px; color: #333; }
+    h1, h2, h3 { color: #222; }
+    img { max-width: 100%; margin: 1em 0; border: 1px solid #ccc; }
+    ul { margin: 0.5em 0 1.5em 1.5em; }
+    hr { margin: 2em 0; border-color: #ddd; }
+    footer { font-size: 0.9em; color: #666; margin-top: 2em; }
+  </style>
+</head>
+<body>
+
+<h1>SMS Privacy & Opt‑In Policy – MUV Ride</h1>
+<p><strong>Last updated:</strong> 8 August 2025</p>
+
+<h2>1. Purpose of SMS Messaging</h2>
+<p>When users sign up or reset their password, MUV Ride requests their mobile number to send a One‑Time Password (OTP) via SMS for authentication. These messages are strictly transactional and used for account verification only.</p>
+
+<h2>2. How the Sign‑Up Flow Works</h2>
+<p>This documentation illustrates how users consent to SMS messages during the sign‑up process:</p>
+
+<h3>Step 1: Enter Details and Phone Number</h3>
+<img src="screenshot1.jpg" alt="Sign‑up screen capturing name, email, phone"/>
+
+<h3>Step 2: User Chooses OTP Delivery Method</h3>
+<img src="screenshot2.jpg" alt="Popup prompting Phone or Email for receiving OTP"/>
+
+<p>When the popup displays, users explicitly choose between “Phone (SMS)” or “Email” for receiving the OTP. Choosing “Phone” functions as an explicit opt‑in to receive SMS messages for verification.</p>
+
+<h2>3. SMS Opt‑In Agreement</h2>
+<p>If the user selects <strong>Phone</strong>, they agree to:</p>
+<ul>
+  <li>Receive automated SMS messages from <strong>MUV Ride</strong> for authentication only.</li>
+  <li>“Msg & data rates may apply.”</li>
+  <li>Reply <strong>STOP</strong> to opt‑out at any time. Once opted out, SMS delivery is disabled until re‑opt‑in.</li>
+  <li>Consent is recorded with timestamp, phone number, and user ID.</li>
+</ul>
+
+<h2>4. Opt‑Out & Support</h2>
+<p>Although OTPs are transactional, users may reply <strong>STOP</strong> to any SMS to stop receiving OTPs. They may also reply <strong>HELP</strong> for support or contact us via <a href="mailto:support@muvrides.com">support@muvrides.com</a>.</p>
+
+<h2>5. Data Use & Retention</h2>
+<p>We collect mobile numbers solely to send and verify OTPs. We do not use phone numbers for marketing or share them, except with Twilio or similar providers involved in delivery. Phone numbers are kept only as long as needed for account and security purposes.</p>
+
+<h2>6. Compliance & Legal Reference</h2>
+<p>This page documents user consent, language, and flow in accordance with:</p>
+<ul>
+  <li>Twilio Messaging Policy and consent/opt-in requirements :contentReference[oaicite:1]{index=1}</li>
+  <li>U.S. A2P 10DLC regulations requiring prior opt-in, opt-out options, rate disclosures, and consent documentation :contentReference[oaicite:2]{index=2}</li>
+</ul>
+
+<h2>7. Further Reading</h2>
+<p>See our <a href="https://www.muvrides.com/privacy-policy">Privacy Policy</a> and <a href="https://www.muvrides.com/terms-of-service">Terms of Service</a> for more information on data privacy and user rights.</p>
+
+<hr/>
+
+<footer>
+<p>This documentation supports your Twilio Verify or SMS campaign registration by providing clear proof of the opt‑in flow and user consent required by carriers and Twilio.</p>
+</footer>
+
+</body>
+</html>
